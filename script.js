@@ -1,4 +1,4 @@
-const DATA_URL = "https://bautistaaby.github.io/Tomatosense/"; // Change this
+const DATA_URL = "https://replit.com/@Zeddilea02/Tomatosense"; // Change this
 
 async function fetchData() {
   try {
@@ -18,3 +18,4 @@ async function fetchData() {
 
 setInterval(fetchData, 5000);
 fetchData();
+
