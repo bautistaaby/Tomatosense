@@ -1,4 +1,4 @@
-const DATA_URL = "https://replit.com/@Zeddilea02/Tomatosense"; // Change this
+const DATA_URL = "http://tomatosense.page.gd/"; // Change this
 
 async function fetchData() {
   try {
@@ -18,4 +18,5 @@ async function fetchData() {
 
 setInterval(fetchData, 5000);
 fetchData();
+
 
